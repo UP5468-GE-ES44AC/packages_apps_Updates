@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">Đã sao chép URL</string>
     <!-- General -->
     <string name="update_found_notification">Đã có bản cập nhật hệ thống</string>
-    <string name="snack_no_updates_found">Không có bản cập nhật mới</string>
     <string name="snack_updates_check_failed">Kiểm tra bản cập nhật không thành công. Vui lòng kiểm tra kết nối internet của bạn và thử lại sau.</string>
     <string name="snack_download_failed">Tải xuống không thành công. Vui lòng kiểm tra kết nối internet của bạn và thử lại sau.</string>
     <string name="snack_download_verification_failed">Xác minh bản cập nhật thất bại.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Chuẩn bị cập nhật sơ bộ</string>
     <string name="dialog_battery_low_title">Pin yếu</string>
     <string name="dialog_battery_low_message_pct">Mức pin quá thấp, bạn cần tối thiểu <xliff:g id="percent_discharging">%1$d</xliff:g>%% pin để tiếp tục, <xliff:g id="percent_charging">%2$d</xliff:g>%% nếu đang sạc.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Xuất bản cập nhật vào bộ nhớ trong</string>
     <string name="notification_export_success">Bản cập nhật đã xuất vào bộ nhớ trong</string>
     <string name="notification_export_fail">Lỗi xuất</string>
@@ -108,15 +107,5 @@
     <string name="checkbox_mobile_data_warning">Không hiển thị lại</string>
     <string name="menu_mobile_data_warning">Cảnh báo dữ liệu di động</string>
     <!-- Info section -->
-    <string name="extras_category_title">Bổ sung</string>
-    <string name="maintainer_info_title">Người bảo trì</string>
-    <string name="donate_info_title">Ủng hộ</string>
-    <string name="donate_info_summary">Hỗ trợ việc phát triển</string>
-    <string name="website_info_title">Trang web</string>
-    <string name="website_info_summary">Truy cập trang web của chúng tôi</string>
-    <string name="news_info_title">Tin tức</string>
-    <string name="news_info_summary">Luôn giữ thông tin về cập nhật và tin tức khác</string>
-    <string name="forum_info_title">Diễn đàn</string>
     <string name="forum_info_summary">Xem các bài đăng trong diễn đàn</string>
-    <string name="error_open_url">Không thể mở URL trong trình duyệt</string>
 </resources>

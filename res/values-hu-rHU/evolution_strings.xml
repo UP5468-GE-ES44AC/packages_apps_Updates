@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">A webcím másolva</string>
     <!-- General -->
     <string name="update_found_notification">Rendszerfrissítés érhető el</string>
-    <string name="snack_no_updates_found">Nem található új frissítés</string>
     <string name="snack_updates_check_failed">Nem sikerült frissítéseket keresni. Ellenőrizze internetkapcsolatát, majd próbálja újra.</string>
     <string name="snack_download_failed">Letöltés sikertelen. Ellenőrizze internetkapcsolatát, majd próbálja újra.</string>
     <string name="snack_download_verification_failed">A frissítés ellenőrzése sikertelen.</string>
@@ -88,7 +87,7 @@
     <string name="dialog_battery_low_title">Alacsony töltöttség</string>
     <string name="dialog_battery_low_message_pct">Az akkumulátortöltöttség túl alacsony, szüksége van legalább <xliff:g id="percent_discharging">%1$d</xliff:g>%% töltöttségre a folytatáshoz,
 illetve, ha éppen tölt, akkor még <xliff:g id="percent_charging">%2$d</xliff:g>%% töltés szükséges.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Frissítőcsomag átvitele a belső tárhelyre</string>
     <string name="notification_export_success">A Frissítőcsomag áthelyezve a belső tárhelyre</string>
     <string name="notification_export_fail">Exportálási hiba</string>
@@ -112,15 +111,5 @@ illetve, ha éppen tölt, akkor még <xliff:g id="percent_charging">%2$d</xliff:
     <string name="checkbox_mobile_data_warning">Ne jelenjen meg többet</string>
     <string name="menu_mobile_data_warning">Mobiladat-használati figyelmeztetés</string>
     <!-- Info section -->
-    <string name="extras_category_title">Extrák</string>
-    <string name="maintainer_info_title">Karbantartó</string>
-    <string name="donate_info_title">Támogasson</string>
-    <string name="donate_info_summary">Támogassa a fejlesztőt</string>
-    <string name="website_info_title">Honlap</string>
-    <string name="website_info_summary">Látogassa meg weboldalunkat</string>
-    <string name="news_info_title">Hírek</string>
-    <string name="news_info_summary">Tájékozódjon a frissítésekről és egyéb hírekről</string>
-    <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Tekintse meg a fórumbejegyzéseket</string>
-    <string name="error_open_url">Nem sikerült megnyitni a linket a böngészőben</string>
 </resources>

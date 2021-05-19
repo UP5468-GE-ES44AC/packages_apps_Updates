@@ -17,17 +17,29 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="android_version">Android version: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Security patch level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Check for update</string>
-    <string name="last_successful_check_for_update">Last checked for update at: %1$s</string>
+    <string name="last_successful_check_for_update">Last successful check for update on: %1$s</string>
     <string name="system_update_available">System update available</string>
     <string name="what_s_new">What\'s New</string>
     <string name="this_is_what_s_new">- This is what\'s new</string>
     <string name="advisory_notice_title">Advisory Notice</string>
-    <string name="advisory_notice_content">- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
+    <string name="advisory_notice_content">- It is recommended that Users use Wi-Fi\\n wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
     <string name="update_size">Update size: %1$s</string>
-    <string name="notification">Notification</string>
-    <string name="notification_content">- Software update - New Evolution X update is available for %1$s</string>
+    <string name="notification_content">%s :</string>
     <string name="download_over_mobiledata_warning">Downloading updates over a mobile network, metered Wi-Fi or while roaming may cause additional charges.</string>
+    <string name="options_btn">Options</string>
+    <string name="tiptext">Long Press Here to Open Pop-up Menu</string>
+    <string name="menu_open_maintainer_uri">Visit Maintainer\'s Page</string>
+    <string name="menu_donation">Considering giving a donation?</string>
+    <string name="donation_title">Make a Donation</string>
+    <string name="donation_info">Building packages is not easy for me, I don\'t have a steady stream of income at present, it costs $1 on average to build a package using a vultr server, so I\'m spending a lot of money on it, and I need your support. I\'d appreciate it if you could buy me a cup of coffee.</string>
+    <string name="qrcode_desc">Use alipay, WeChat, QQ to scan it</string>
+    <string name="downing_update">Downloading Update</string>
+    <string name="check_update_fail">Can\'t check for update</string>
+    <string name="checking_for_update">Checking Updates....</string>
+    <string name="donation_tips">If you want to support this project, please long press options to open the donation dialog box to view the details.</string>
+    <string name="error_text">Updates are temporarily unavailable. Try again later.</string>
+    <string name="history_changes">History ChangeLog</string>
+    <string name="changelog_fetch_failed">Could not fetch changelog now. Try again later.</string>
 </resources>

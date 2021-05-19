@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">تم نسخ الرابط</string>
     <!-- General -->
     <string name="update_found_notification">يتوفر تحديث للنظام</string>
-    <string name="snack_no_updates_found">لا توجد تحديثات جديدة</string>
     <string name="snack_updates_check_failed">فشل التحقق من التحديثات. الرجاء التحقق من اتصال الإنترنت الخاص بك ثم حاول مرة أخرى لاحقاً.</string>
     <string name="snack_download_failed">فشل التنزيل. برجاء التحقق من اتصالك بالإنترنت وإعادة المحاولة لاحقًا.</string>
     <string name="snack_download_verification_failed">فشل التحقق من التحديث.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">الإعداد الأولي للتحديث</string>
     <string name="dialog_battery_low_title">البطارية منخفضة</string>
     <string name="dialog_battery_low_message_pct">مستوى البطارية منخفض جداً، تحتاج على الأقل <xliff:g id="percent_discharging">%1$d</xliff:g>%% من البطارية للمتابعة، <xliff:g id="percent_charging">%2$d</xliff:g>%% في حالة الشحن.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">تصدير التحديث إلى وحدة التخزين الداخلية</string>
     <string name="notification_export_success">تم تصدير التحديث إلى وحدة التخزين الداخلية</string>
     <string name="notification_export_fail">خطأ في التصدير</string>
@@ -123,15 +122,5 @@
     <string name="checkbox_mobile_data_warning">لا تظهر مرة أخرى</string>
     <string name="menu_mobile_data_warning">تحذير بيانات الهاتف</string>
     <!-- Info section -->
-    <string name="extras_category_title">إضافات</string>
-    <string name="maintainer_info_title">المشرف</string>
-    <string name="donate_info_title">تبرع</string>
-    <string name="donate_info_summary">إدعم التطوير</string>
-    <string name="website_info_title">الموقع</string>
-    <string name="website_info_summary">زيارة موقعنا الإلكتروني</string>
-    <string name="news_info_title">الأخبار</string>
-    <string name="news_info_summary">البقاء على علم بالتحديثات والأخبار الأخرى</string>
-    <string name="forum_info_title">المنتدى</string>
     <string name="forum_info_summary">عرض مشاركات المنتدى</string>
-    <string name="error_open_url">فشل في فتح عنوان URL في المتصفح</string>
 </resources>

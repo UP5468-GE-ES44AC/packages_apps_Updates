@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">Bağlantı kopyalandı</string>
     <!-- General -->
     <string name="update_found_notification">Sistem güncellemesi mevcut</string>
-    <string name="snack_no_updates_found">Yeni güncelleme bulunamadı</string>
     <string name="snack_updates_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
     <string name="snack_download_failed">Güncelleme indirilemedi. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
     <string name="snack_download_verification_failed">Güncelleme doğrulaması başarısız oldu.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Güncelleme ön hazırlığı</string>
     <string name="dialog_battery_low_title">Düşük pil</string>
     <string name="dialog_battery_low_message_pct">Pil seviyesi çok düşük, devam etmek için en az <xliff:g id="percent_discharging">%1$d</xliff:g>%% pil gereklidir, <xliff:g id="percent_charging">%2$d</xliff:g>%% şarj ediliyor.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Güncelleme dahili depolamaya aktarılıyor</string>
     <string name="notification_export_success">Güncelleme dahili depolamaya aktarıldı</string>
     <string name="notification_export_fail">Dışa aktarım hatası</string>
@@ -111,15 +110,5 @@
     <string name="checkbox_mobile_data_warning">Tekrar gösterme</string>
     <string name="menu_mobile_data_warning">Mobil veri uyarısı</string>
     <!-- Info section -->
-    <string name="extras_category_title">Ekstralar</string>
-    <string name="maintainer_info_title">Cihaz sorumlusu</string>
-    <string name="donate_info_title">Bağış yap</string>
-    <string name="donate_info_summary">Geliştirmeyi destekle</string>
-    <string name="website_info_title">İnternet sitesi</string>
-    <string name="website_info_summary">İnternet sitemizi ziyaret edin</string>
-    <string name="news_info_title">Haberler</string>
-    <string name="news_info_summary">Güncellemeler ve diğer haberler hakkında bilgi sahibi olun</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Forum gönderilerini görüntüle</string>
-    <string name="error_open_url">URL\'yi tarayıcıda açma başarısız oldu</string>
 </resources>

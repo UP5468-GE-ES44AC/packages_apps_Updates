@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="options_btn">选项</string>
+    <string name="tiptext">长按此处以弹出选项</string>
+    <string name="menu_open_maintainer_uri">访问维护者主页</string>
+    <string name="menu_donation">考虑捐赠一下？</string>
+    <string name="donation_title">捐赠一下？</string>
+    <string name="donation_info">跑一个包对我来说不是很容易，目前我没有稳定的经济收入，使用vultr的服务器跑一个包平均需要1$,如此下来我的钱在这里面砸得很多，我需要你们的支持。如果你能给我买一杯咖啡，那就十分感谢了。</string>
+    <string name="qrcode_desc">使用支付宝、微信、QQ来扫描它</string>
+    <string name="notification_content">%s：</string>
+    <string name="update_size">更新包大小：%1$s</string>
+    <string name="download_over_mobiledata_warning">通过移动网络、按流量计费的Wi-Fi或在漫游时下载的更新可能会导致额外费用。</string>
+    <string name="check_for_update">检查更新</string>
+    <string name="advisory_notice_title">注意事项</string>
+    <string name="android_version">Android 版本: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="system_update_available">有系统更新可用</string>
+    <string name="what_s_new">更新内容</string>
+    <string name="security_patch_level">安全补丁级别: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="last_successful_check_for_update">上次成功检查更新的时间：%1$s</string>
+    <string name="downing_update">正在下载更新</string>
+    <string name="check_update_fail">无法检查更新</string>
+    <string name="checking_for_update">正在检查更新....</string>
+    <string name="donation_tips">如果你想支持本项目，请长按选项打开捐赠对话框以查看详情。</string>
+    <string name="error_text">暂时无法获取更新，请稍后重试。</string>
+    <string name="history_changes">历史更新日志</string>
+    <string name="changelog_fetch_failed">暂时无法获取历史更新日志，请稍后重试。</string>
+</resources>

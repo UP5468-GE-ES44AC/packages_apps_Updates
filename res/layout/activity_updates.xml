@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/theme_primary">
-
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:elevation="0dp">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/AppTheme.PopupMenuStyle"
-            app:titleTextAppearance="@style/ToolbarTitle" />
-    </com.google.android.material.appbar.AppBarLayout>
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginTop="55dp"
         android:orientation="vertical">
 
         <ImageView
@@ -32,74 +18,78 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/ic_partial_system_update_current" />
+            android:src="@drawable/ic_system_update" />
 
         <TextView
             android:id="@+id/no_new_updates_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="google-sans"
             android:gravity="center"
             android:paddingStart="46dp"
             android:paddingTop="5dp"
             android:paddingEnd="46dp"
-            android:paddingBottom="5dp"
-            android:fontFamily="google-sans"
+            android:paddingBottom="2dp"
             android:text="@string/list_no_updates"
             android:textColor="@color/text_primary"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/last_update_check"
+            android:id="@+id/error_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:gravity="start"
-            android:visibility="visible"
-            android:paddingStart="24dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="24dp"
+            android:fontFamily="google-sans"
+            android:gravity="center"
+            android:paddingStart="46dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="46dp"
             android:paddingBottom="5dp"
-            android:text="@string/last_successful_check_for_update"
-            android:textColor="@color/text_primary"
+            android:text="@string/list_no_updates"
+            android:textColor="@color/checkupdatefailed"
             android:textSize="16sp" />
 
         <TextView
             android:id="@+id/android_version"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="30dp"
             android:gravity="start"
-            android:visibility="visible"
             android:paddingStart="24dp"
             android:paddingTop="5dp"
             android:paddingEnd="24dp"
             android:paddingBottom="3dp"
             android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/evolution_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
+            android:textSize="16sp"
             android:visibility="visible"
-            android:paddingStart="24dp"
-            android:paddingEnd="24dp"
-            android:paddingBottom="3dp"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
+            tools:text="xxxx" />
 
         <TextView
             android:id="@+id/security_version"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:visibility="visible"
             android:paddingStart="24dp"
             android:paddingEnd="24dp"
             android:textColor="@color/text_primary"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:visibility="visible"
+            tools:text="xxxx" />
+
+        <TextView
+            android:id="@+id/last_update_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="start"
+            android:paddingStart="24dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="5dp"
+            android:text="@string/last_successful_check_for_update"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:visibility="visible" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:visibility="gone"
@@ -118,24 +108,35 @@
 
         <ProgressBar
             android:id="@+id/progress_bar"
-            android:visibility="gone"
-            style="?android:attr/progressBarStyleLarge"
+            style="@style/SudFourColorIndeteminateProgressBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="32dp" />
+            android:layout_marginBottom="32dp"
+            android:visibility="gone" />
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/options_btn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:text="@string/options_btn"
+        android:textAllCaps="false" />
+
+    <Button
         android:id="@+id/check_updates"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:background="@drawable/roundedbutton"
+        android:fontFamily="google-sans"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:fontFamily="google-sans"
         android:text="@string/check_for_update"
         android:textAllCaps="false"
         android:textColor="#fff" />

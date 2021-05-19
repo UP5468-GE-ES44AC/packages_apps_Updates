@@ -9,4 +9,16 @@
     <item
         android:id="@+id/menu_copy_url"
         android:title="@string/menu_copy_url" />
+    <item
+        android:id="@+id/menu_history_changes"
+        android:title="@string/history_changes" />
+    <item
+        android:id="@+id/menu_open_maintainer_uri"
+        android:title="@string/menu_open_maintainer_uri" />
+    <item
+        android:id="@+id/menu_open_post"
+        android:title="@string/forum_info_summary" />
+    <item
+        android:id="@+id/menu_open_donation_qrcode"
+        android:title="@string/menu_donation" />
 </menu>

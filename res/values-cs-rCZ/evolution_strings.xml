@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL zkopírována</string>
     <!-- General -->
     <string name="update_found_notification">Je dostupná aktualizace systému</string>
-    <string name="snack_no_updates_found">Nové aktualizace nenalezeny</string>
     <string name="snack_updates_check_failed">Zjištění nové verze selhalo. Prosím zkontrolujte připojení k internetu a pokus opakujte.</string>
     <string name="snack_download_failed">Stahování selhalo. Prosím zkontrolujte připojení k internetu a pokus opakujte.</string>
     <string name="snack_download_verification_failed">Ověření aktualizace selhalo.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Příprava předběžné aktualizace</string>
     <string name="dialog_battery_low_title">Slabá baterie</string>
     <string name="dialog_battery_low_message_pct">Úroveň nabití baterie je příliš nízká, potřebujete alespoň <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterie pro pokračování, <xliff:g id="percent_charging">%2$d</xliff:g>%% při nabíjení.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Exportování aktualizace do interního úložiště</string>
     <string name="notification_export_success">Aktualizace exportována do interního úložiště</string>
     <string name="notification_export_fail">Chyba exportu</string>
@@ -117,15 +116,5 @@
     <string name="checkbox_mobile_data_warning">Znovu nezobrazovat</string>
     <string name="menu_mobile_data_warning">Upozornění mobilních dat</string>
     <!-- Info section -->
-    <string name="extras_category_title">Doplňky</string>
-    <string name="maintainer_info_title">Správce</string>
-    <string name="donate_info_title">Přispět</string>
-    <string name="donate_info_summary">Podpořte vývoj</string>
-    <string name="website_info_title">Webová stránka</string>
-    <string name="website_info_summary">Navštivte naše webové stránky</string>
-    <string name="news_info_title">Novinky</string>
-    <string name="news_info_summary">Zůstaňte informováni o aktualizacích a dalších novinkách</string>
-    <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Zobrazit příspěvky ve fóru</string>
-    <string name="error_open_url">Nepodařilo se otevřít adresu URL v prohlížeči</string>
 </resources>

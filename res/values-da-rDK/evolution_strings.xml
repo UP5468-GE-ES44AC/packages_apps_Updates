@@ -45,7 +45,6 @@
     <string name="toast_download_url_copied">URL kopieret</string>
     <!-- General -->
     <string name="update_found_notification">En ny systemopdatering er tilgængelig</string>
-    <string name="snack_no_updates_found">Ingen nye opdateringer fundet</string>
     <string name="snack_updates_check_failed">Opdateringstjek mislykkedes. Tjek venligst Internetforbindelsen, og prøv igen senere.</string>
     <string name="snack_download_failed">Download af opdateringen fejlede. Kontrollér venligst din internetforbindelse og prøv igen senere.</string>
     <string name="snack_download_verification_failed">Opdaterings verificering fejlede.</string>
@@ -82,7 +81,7 @@
     <string name="preparing_ota_first_boot">Forbereder på første opstart</string>
     <string name="dialog_prepare_zip_message">Indledende opdateringsforberedelse</string>
     <string name="dialog_battery_low_message_pct">Du har for lidt strøm på dit batteri. Du skal mindst bruge <xliff:g id="percent_discharging">%1$d</xliff:g>%% for at installere opdateringen, <xliff:g id="percent_charging">%2$d</xliff:g>%% hvis din enhed oplader.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Eksporterer opdatering til internal storage</string>
     <string name="notification_export_success">Opdateringen blev exporteret til internal storage</string>
     <string name="notification_export_fail">Der skete en eksportfejl</string>
@@ -106,15 +105,5 @@
     <string name="checkbox_mobile_data_warning">Vis ikke dette igen</string>
     <string name="menu_mobile_data_warning">Mobildata-advarsel</string>
     <!-- Info section -->
-    <string name="extras_category_title">Ekstra</string>
-    <string name="maintainer_info_title">Vedligeholder</string>
-    <string name="donate_info_title">Donér</string>
-    <string name="donate_info_summary">Støt udviklingen</string>
-    <string name="website_info_title">Hjemmeside</string>
-    <string name="website_info_summary">Besøg vores hjemmeside</string>
-    <string name="news_info_title">Nyheder</string>
-    <string name="news_info_summary">Bliv informeret om opdateringer og andre nyheder</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Se forumindlæg</string>
-    <string name="error_open_url">Kunne ikke åbne URL i browser</string>
 </resources>

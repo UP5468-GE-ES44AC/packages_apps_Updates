@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.evolution.ota"
+    package="com.android.updater"
     android:versionCode="1">
 
     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
@@ -16,7 +16,7 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher_settings"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
@@ -44,9 +44,10 @@
         <activity
             android:name=".LocalChangelogActivity"
             android:excludeFromRecents="true"
-            android:label="@string/menu_show_changelog"
+            android:label="@string/history_changes"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".UpdatesActivity"
+            android:theme="@style/AppTheme.UPDHLog" />
 
         <service android:name=".controller.UpdaterService" />
         <service android:name=".ExportUpdateService" />

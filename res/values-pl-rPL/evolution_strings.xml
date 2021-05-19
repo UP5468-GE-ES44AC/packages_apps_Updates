@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">Skopiowano link</string>
     <!-- General -->
     <string name="update_found_notification">Aktualizacja systemu jest dostępna</string>
-    <string name="snack_no_updates_found">Nie znaleziono nowych aktualizacji</string>
     <string name="snack_updates_check_failed">Sprawdzanie aktualizacji nie powiodło się. Sprawdź połączenie z Internetem i spróbuj ponownie.</string>
     <string name="snack_download_failed">Pobieranie nie powiodło się. Sprawdź połączenie z Internetem i spróbuj ponownie później.</string>
     <string name="snack_download_verification_failed">Weryfikacja aktualizacji się nie powiodła.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Wstępne przygotowywanie aktualizacji</string>
     <string name="dialog_battery_low_title">Niskim poziom baterii</string>
     <string name="dialog_battery_low_message_pct">Poziom naładowania baterii jest zbyt niski, musisz mieć co najmniej <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterii lub <xliff:g id="percent_charging">%2$d</xliff:g>%% w trakcie ładowania.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Eksportowanie aktualizacji do pamięci wewnętrznej</string>
     <string name="notification_export_success">Aktualizacja wyeksportowana do pamięci wewnętrznej</string>
     <string name="notification_export_fail">Błąd eksportowania</string>
@@ -117,15 +116,5 @@
     <string name="checkbox_mobile_data_warning">Nie pokazuj ponownie</string>
     <string name="menu_mobile_data_warning">Ostrzeżenie o danych komórkowych</string>
     <!-- Info section -->
-    <string name="extras_category_title">Dodatki</string>
-    <string name="maintainer_info_title">Opiekun</string>
-    <string name="donate_info_title">Wesprzyj</string>
-    <string name="donate_info_summary">Wesprzyj rozwój programu</string>
-    <string name="website_info_title">Strona internetowa</string>
-    <string name="website_info_summary">Odwiedź naszą stronę internetową</string>
-    <string name="news_info_title">Aktualności</string>
-    <string name="news_info_summary">Bądź informowany o nowych aktualizacjach i innych nowościach</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Zobacz posty na forum</string>
-    <string name="error_open_url">Nie można otworzyć adresu URL w przeglądarce</string>
 </resources>

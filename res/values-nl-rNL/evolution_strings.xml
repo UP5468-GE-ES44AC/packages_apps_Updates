@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL gekopieerd</string>
     <!-- General -->
     <string name="update_found_notification">Systeemupdate beschikbaar</string>
-    <string name="snack_no_updates_found">Geen nieuwe updates gevonden</string>
     <string name="snack_updates_check_failed">Kan niet controleren op updates. Controleer uw internetverbinding en probeer het later opnieuw.</string>
     <string name="snack_download_failed">Downloaden mislukt. Controleer uw internetverbinding en probeer het later opnieuw.</string>
     <string name="snack_download_verification_failed">Verificatie van de update is mislukt.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Update voorbereiding</string>
     <string name="dialog_battery_low_title">Lage batterij</string>
     <string name="dialog_battery_low_message_pct">Uw batterijniveau is te laag, u moet minstens <xliff:g id="percent_discharging">%1$d</xliff:g>%% batterijcapaciteit hebben om door te gaan of <xliff:g id="percent_charging">%2$d</xliff:g>%% tijdens het opladen.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Update exporteren naar interne opslag</string>
     <string name="notification_export_success">Update geëxporteerd naar interne opslag</string>
     <string name="notification_export_fail">Fout bij exporteren</string>
@@ -111,15 +110,5 @@
     <string name="checkbox_mobile_data_warning">Niet opnieuw tonen</string>
     <string name="menu_mobile_data_warning">Waarschuwing mobiele data</string>
     <!-- Info section -->
-    <string name="extras_category_title">Extra\'s</string>
-    <string name="maintainer_info_title">Beheerder</string>
-    <string name="donate_info_title">Doneren</string>
-    <string name="donate_info_summary">Steun de ontwikkeling</string>
-    <string name="website_info_title">Website</string>
-    <string name="website_info_summary">Bezoek onze website</string>
-    <string name="news_info_title">Nieuws</string>
-    <string name="news_info_summary">Blijf op de hoogte van updates en ander nieuws</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Bekijk forumberichten</string>
-    <string name="error_open_url">Fout bij het openen van URL in browser</string>
 </resources>

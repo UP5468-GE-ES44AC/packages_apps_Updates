@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL copiada</string>
     <!-- General -->
     <string name="update_found_notification">Actualización disponible</string>
-    <string name="snack_no_updates_found">No hay nuevas actualizaciones</string>
     <string name="snack_updates_check_failed">Error en la comprobación de actualizaciones. Por favor, verifique la conexión a Internet e inténtalo nuevamente.</string>
     <string name="snack_download_failed">Descarga fallida. Compruebe la conexión a Internet e inténtelo nuevamente.</string>
     <string name="snack_download_verification_failed">La verificación de la actualización falló.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Preparación preliminar de la actualización</string>
     <string name="dialog_battery_low_title">Batería baja</string>
     <string name="dialog_battery_low_message_pct">El nivel de la batería es demasiado bajo, necesita al menos <xliff:g id="percent_discharging">%1$d</xliff:g>%% de batería para continuar, <xliff:g id="percent_charging">%2$d</xliff:g>%% si el dispositivo se está cargando.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Exportando actualización al almacenamiento interno</string>
     <string name="notification_export_success">Actualización exportada al almacenamiento interno</string>
     <string name="notification_export_fail">Error de exportación</string>
@@ -111,15 +110,5 @@
     <string name="checkbox_mobile_data_warning">No volver a mostrar</string>
     <string name="menu_mobile_data_warning">Advertencia de datos móviles</string>
     <!-- Info section -->
-    <string name="extras_category_title">Extras</string>
-    <string name="maintainer_info_title">Mantenedor</string>
-    <string name="donate_info_title">Donar</string>
-    <string name="donate_info_summary">Apoyar al desarrollo</string>
-    <string name="website_info_title">Sitio web</string>
-    <string name="website_info_summary">Visite nuestro sitio web</string>
-    <string name="news_info_title">Noticias</string>
-    <string name="news_info_summary">Permanecer informado sobre actualizaciones y otras noticias</string>
-    <string name="forum_info_title">Foro</string>
     <string name="forum_info_summary">Ver publicaciones del foro</string>
-    <string name="error_open_url">Fallo al abrir la URL en el navegador</string>
 </resources>

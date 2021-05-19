@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL நகலெடுக்கப்பட்டது</string>
     <!-- General -->
     <string name="update_found_notification">மென்பொருள் மேம்படுத்தல் உள்ளது</string>
-    <string name="snack_no_updates_found">புதிய மென்பொருள் மேம்படுத்தல் இல்லை</string>
     <string name="snack_updates_check_failed">புதுப்பிப்பு சோதனை தோல்வியடைந்தது. உங்கள் இணைய இணைப்பைச் சரிபார்த்து பின்னர் மீண்டும் முயற்சிக்கவும்.
 
 update_check_failed
@@ -90,7 +89,7 @@ update_check_failed
     <string name="dialog_prepare_zip_message">ஆரம்ப புதுப்பித்தல் தயாரிப்பு</string>
     <string name="dialog_battery_low_title">பேட்டரி குறைவு</string>
     <string name="dialog_battery_low_message_pct">பேட்டரி தேவை அளவு குறைவாக உள்ளது<xliff:g id="percent_discharging">%1$d</xliff:g>%% ஆரம்பிக்க <xliff:g id="percent_charging">%2$d</xliff:g>%% சக்தி என்றால்.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">உள் சேமிப்பகத்திற்கு புதுப்பிப்பை ஏற்றுமதி செய்கிறது</string>
     <string name="notification_export_success">புதுப்பிப்பு உள் சேமிப்பகத்திற்கு ஏற்றுமதி செய்யப்பட்டது</string>
     <string name="notification_export_fail">ஏற்றுமதியின் பிழை</string>
@@ -114,15 +113,5 @@ update_check_failed
     <string name="checkbox_mobile_data_warning">மீண்டும் காட்ட வேண்டாம்</string>
     <string name="menu_mobile_data_warning">மொபைல் தரவு பயன்பாடு எச்சரிக்கை</string>
     <!-- Info section -->
-    <string name="extras_category_title">மற்றவை</string>
-    <string name="maintainer_info_title">பராமரிப்பாளர்</string>
-    <string name="donate_info_title">நன்கொடை</string>
-    <string name="donate_info_summary">வளர்ச்சிக்கு ஆதரவு</string>
-    <string name="website_info_title">வலைத்தளம்</string>
-    <string name="website_info_summary">எங்கள் வலைத்தளத்தில் செல்க</string>
-    <string name="news_info_title">செய்தி</string>
-    <string name="news_info_summary">மேம்படுத்தல்கள் மற்றும் பிற செய்திகளைப் பற்றி தெரிந்து கொள்ளுங்கள்</string>
-    <string name="forum_info_title">மன்றம்</string>
     <string name="forum_info_summary">சமீபத்திய மன்ற பதிவுகள்</string>
-    <string name="error_open_url">உலாவியில் URL ஐ திறக்க முடியவில்லை</string>
 </resources>

@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">Ссылка скопирована</string>
     <!-- General -->
     <string name="update_found_notification">Доступно обновление системы</string>
-    <string name="snack_no_updates_found">Нет доступных обновлений</string>
     <string name="snack_updates_check_failed">Ошибка проверки обновлений. Пожалуйста, проверьте подключение к интернету и повторите попытку позже.</string>
     <string name="snack_download_failed">Ошибка загрузки. Пожалуйста, проверьте подключение к интернету и повторите попытку позже.</string>
     <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Подготовка обновления</string>
     <string name="dialog_battery_low_title">Низкий уровень заряда батареи</string>
     <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Экспорт обновления во внутреннюю память</string>
     <string name="notification_export_success">Обновление экспортировано во внутреннюю память</string>
     <string name="notification_export_fail">Ошибка экспорта</string>
@@ -117,15 +116,5 @@
     <string name="checkbox_mobile_data_warning">Больше не показывать</string>
     <string name="menu_mobile_data_warning">Предупрежд. о моб. данных</string>
     <!-- Info section -->
-    <string name="extras_category_title">Дополнения</string>
-    <string name="maintainer_info_title">Разработчик</string>
-    <string name="donate_info_title">Пожертвовать</string>
-    <string name="donate_info_summary">Поддержать разработку</string>
-    <string name="website_info_title">Сайт</string>
-    <string name="website_info_summary">Посетите наш сайт</string>
-    <string name="news_info_title">Новости</string>
-    <string name="news_info_summary">Будьте в курсе обновлений и других новостей</string>
-    <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Посмотреть сообщения на форуме</string>
-    <string name="error_open_url">Не удалось открыть URL в браузере</string>
 </resources>

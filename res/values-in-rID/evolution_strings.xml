@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">Tautan tersalin</string>
     <!-- General -->
     <string name="update_found_notification">Pembaharuan sistem tersedia</string>
-    <string name="snack_no_updates_found">Tidak ada pembaruan baru ditemukan</string>
     <string name="snack_updates_check_failed">Pemeriksaan pembaruan gagal. Silakan periksa koneksi internet Anda dan coba lagi nanti.</string>
     <string name="snack_download_failed">Unduhan gagal. Silakan periksa koneksi internet Anda dan coba lagi nanti.</string>
     <string name="snack_download_verification_failed">Verifikasi pembaruan gagal.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Persiapan pembaruan awal</string>
     <string name="dialog_battery_low_title">Baterai lemah</string>
     <string name="dialog_battery_low_message_pct">Tingkat baterai terlalu rendah, Anda memerlukan setidaknya <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterai untuk melanjutkan, <xliff:g id="percent_charging">%2$d</xliff:g>%% jika saat pengisian.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Simpan pembaruan ke penyimpanan internal</string>
     <string name="notification_export_success">Pembaruan disimpan ke penyimpanan internal</string>
     <string name="notification_export_fail">Kesalahan saat mengekspor</string>
@@ -108,15 +107,5 @@
     <string name="checkbox_mobile_data_warning">Jangan tampilkan lagi</string>
     <string name="menu_mobile_data_warning">Peringatan data seluler</string>
     <!-- Info section -->
-    <string name="extras_category_title">Tambahan</string>
-    <string name="maintainer_info_title">Pemelihara</string>
-    <string name="donate_info_title">Donasi</string>
-    <string name="donate_info_summary">Dukung pengembangan</string>
-    <string name="website_info_title">Situs web</string>
-    <string name="website_info_summary">Kunjungi situs web kami</string>
-    <string name="news_info_title">Berita</string>
-    <string name="news_info_summary">Tetap ikuti tentang pembaharuan dan berita lainnya</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Lihat kiriman forum</string>
-    <string name="error_open_url">Gagal membuka tautan di peramban</string>
 </resources>

@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">यूआरएल कॉपी किया गया</string>
     <!-- General -->
     <string name="update_found_notification">नया अपडेट उपलब्ध है</string>
-    <string name="snack_no_updates_found">कोई नई अपडेट नहीं पाई गयी</string>
     <string name="snack_updates_check_failed">अपडेट जांच विफल रही । कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
     <string name="snack_download_failed">अपडेट जांच विफल रही । कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
     <string name="snack_download_verification_failed">अपडेट सत्यापन विफल रहा।</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">अपडेट से पहले की तैयारी</string>
     <string name="dialog_battery_low_title">कम बैटरी</string>
     <string name="dialog_battery_low_message_pct">बैटरी कम है, आपको आगे बढ़ने के लिए कम से कम <xliff:g id="percent_discharging">%1$d</xliff:g>%% बैटरी चाहिए, <xliff:g id="percent_charging">%2$d</xliff:g>%% बैटरी अगर आप चार्ज कर रहे हैं।</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">अपडेट को फ़ोन के स्टोरेज में निर्यात किया जा रहा है</string>
     <string name="notification_export_success">अपडेट फ़ोन के स्टोरेज में सफलतापूर्वक निर्यात किया गया</string>
     <string name="notification_export_fail">निर्यात में गलती</string>
@@ -111,15 +110,5 @@
     <string name="checkbox_mobile_data_warning">दोबारा ना दिखाएं</string>
     <string name="menu_mobile_data_warning">मोबाइल डेटा चेतावनी</string>
     <!-- Info section -->
-    <string name="extras_category_title">अतिरिक्त</string>
-    <string name="maintainer_info_title">मेंटेनर</string>
-    <string name="donate_info_title">दान करें</string>
-    <string name="donate_info_summary">रोम के विकास का समर्थन करें</string>
-    <string name="website_info_title">वेबसाइट</string>
-    <string name="website_info_summary">हमारी वेबसाइट पर जाएँ</string>
-    <string name="news_info_title">समाचार</string>
-    <string name="news_info_summary">अपडेट्स और अन्य खबरों के बारे में सूचित रहें</string>
-    <string name="forum_info_title">फोरम</string>
     <string name="forum_info_summary">फोरम पोस्ट देखें</string>
-    <string name="error_open_url">ब्राउज़र में यूआरएल खोलने में विफल</string>
 </resources>

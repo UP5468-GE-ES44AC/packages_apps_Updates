@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL wurde kopiert</string>
     <!-- General -->
     <string name="update_found_notification">Systemupdate verfügbar</string>
-    <string name="snack_no_updates_found">Keine neuen Updates gefunden</string>
     <string name="snack_updates_check_failed">Die Suche nach Updates ist fehlgeschlagen. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
     <string name="snack_download_failed">Das Herunterladen ist fehlgeschlagen. Bitte überpüfen sie Ihre Internetverbindung und versuchen Sie es später erneut.</string>
     <string name="snack_download_verification_failed">Die Update-Überprüfung ist fehlgeschlagen.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Vorläufige Update-Vorbereitung</string>
     <string name="dialog_battery_low_title">Niedriger Akkustand</string>
     <string name="dialog_battery_low_message_pct">Der Akkustand ist zu niedrig. Es werden mindestens <xliff:g id="percent_discharging">%1$d</xliff:g>%% Restkapazität (oder <xliff:g id="percent_charging">%2$d</xliff:g>%% mit angeschlossenem Ladegerät) benötigt, um fortzufahren.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Exportiere Update zum internen Speicher</string>
     <string name="notification_export_success">Update zum internen Speicher exportiert</string>
     <string name="notification_export_fail">Fehler beim Exportieren</string>
@@ -111,15 +110,5 @@
     <string name="checkbox_mobile_data_warning">Nicht mehr anzeigen</string>
     <string name="menu_mobile_data_warning">Mobildaten-Warnung</string>
     <!-- Info section -->
-    <string name="extras_category_title">Extras</string>
-    <string name="maintainer_info_title">Maintainer</string>
-    <string name="donate_info_title">Spende</string>
-    <string name="donate_info_summary">Unterstütze die Entwicklung</string>
-    <string name="website_info_title">Webseite</string>
-    <string name="website_info_summary">Besuche unsere Webseite</string>
-    <string name="news_info_title">Neuigkeiten</string>
-    <string name="news_info_summary">Bleibe über Updates und andere Neuigkeiten informiert</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Forumbeiträge anzeigen</string>
-    <string name="error_open_url">Fehler beim Öffnen der URL im Browser</string>
 </resources>

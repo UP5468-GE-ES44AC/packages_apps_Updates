@@ -48,7 +48,6 @@
     <string name="toast_download_url_copied">URL copiat</string>
     <!-- General -->
     <string name="update_found_notification">Este disponibilă o actualizare de sistem</string>
-    <string name="snack_no_updates_found">Nu s-au găsit actualizări noi</string>
     <string name="snack_updates_check_failed">Verificarea actualizării a eșuat. Vă rugăm să verificați conexiunea la internet și să încercați din nou mai târziu.</string>
     <string name="snack_download_failed">Descărcarea a eșuat. Vă rugăm să verificați conexiunea la internet și să încercați din nou mai târziu.</string>
     <string name="snack_download_verification_failed">Verificarea actualizării a eșuat.</string>
@@ -87,7 +86,7 @@
     <string name="dialog_prepare_zip_message">Pregătire preliminară pentru actualizare</string>
     <string name="dialog_battery_low_title">Baterie descărcată</string>
     <string name="dialog_battery_low_message_pct">Nivelul bateriei este prea scăzut. Aveți nevoie de cel puțin<xliff:g id="percent_discharging">%1$d</xliff:g>%% pentru a continua, <xliff:g id="percent_charging">%2$d</xliff:g>%% dacă telefonul este la încărcat.</string>
-    <!-- Export update -->
+    <!-- Export updater -->
     <string name="dialog_export_title">Exportarea actualizării în spațiul de stocare intern</string>
     <string name="notification_export_success">Actualizare exportată în spatiul de stocare intern</string>
     <string name="notification_export_fail">Eroare de export</string>
@@ -114,15 +113,5 @@
     <string name="checkbox_mobile_data_warning">Nu se mai afișează</string>
     <string name="menu_mobile_data_warning">Avertizare date mobile</string>
     <!-- Info section -->
-    <string name="extras_category_title">Extra</string>
-    <string name="maintainer_info_title">Dezvoltator</string>
-    <string name="donate_info_title">Donează</string>
-    <string name="donate_info_summary">Susțineți dezvoltarea</string>
-    <string name="website_info_title">Website</string>
-    <string name="website_info_summary">Vizitați pagina noastră web</string>
-    <string name="news_info_title">Noutăți</string>
-    <string name="news_info_summary">Rămâneți informat despre actualizări şi alte noutăți</string>
-    <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Vizualizaţi postările forumului</string>
-    <string name="error_open_url">Nu s-a reușit deschiderea adresei URL în browser</string>
 </resources>
