@@ -5,7 +5,7 @@
     <string name="menu_open_maintainer_uri">訪問維護者頁面</string>
     <string name="menu_donation">考慮捐贈一下？</string>
     <string name="donation_title">捐贈一下？</string>
-    <string name="donation_info">跑一個包對我來說不是很容易，現時我沒有穩定的經濟收入，使用vultr的服務器跑一個包平均需要1$，如此下來我的錢在這裡面砸得很多，我需要你們的支持。如果你能給我買一杯咖啡，那就十分感謝了。</string>
+    <string name="donation_info">如果您覺得這個包好用，各位老闆不妨打賞一下唄，咱就有動力繼續更新了。</string>
     <string name="qrcode_desc">使用支付寶、WeChat、QQ以掃描它</string>
     <string name="notification_content">%s：</string>
     <string name="update_size">更新包大小：%1$s</string>

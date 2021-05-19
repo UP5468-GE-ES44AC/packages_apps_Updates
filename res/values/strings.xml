@@ -33,7 +33,7 @@
     <string name="menu_open_maintainer_uri">Visit Maintainer\'s Page</string>
     <string name="menu_donation">Considering giving a donation?</string>
     <string name="donation_title">Make a Donation</string>
-    <string name="donation_info">Building packages is not easy for me, I don\'t have a steady stream of income at present, it costs $1 on average to build a package using a vultr server, so I\'m spending a lot of money on it, and I need your support. I\'d appreciate it if you could buy me a cup of coffee.</string>
+    <string name="donation_info">Building packages is not easy for me, and I need your support. I\'d appreciate it if you could buy me a cup of coffee or Something else.</string>
     <string name="qrcode_desc">Use alipay, WeChat, QQ to scan it</string>
     <string name="downing_update">Downloading Update</string>
     <string name="check_update_fail">Can\'t check for update</string>
